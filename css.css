@@ -1,0 +1,30 @@
+
+#home{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        background-color: #f1f1f1;
+        }
+li a {
+    width: 60px;
+    background-color: #bbbbbb;
+    text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #555;
+        color: white;
+        }
+
+        section {
+            display: flex;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+          }
