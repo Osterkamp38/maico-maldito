@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    height: 1000px;
+    height: 100px;
 }
 
 #home {
@@ -74,11 +74,21 @@ body {
 .conteudo{
     text-align: center;
     margin: auto;
+    margin-top: 0;
+}
+
+.foto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto img {
     width: 500px;
-    margin: auto;
+    margin: 10px;
+    box-shadow: 2px 2px 5px;
+    border: 2px solid black;
 }
 
 .texto {
@@ -105,4 +115,12 @@ section {
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
+}
+
+#m3{
+    position: absolute;
+}
+
+#m3:hover{
+    opacity: 0;
 }
