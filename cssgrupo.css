@@ -3,6 +3,13 @@ body {
     margin: 0;
 }
 
+a:hover{
+    transform: scale(1.2);
+}
+a{
+    display: inline-block;
+}
+
 #main{
     display: flex;
     flex-direction: column;
