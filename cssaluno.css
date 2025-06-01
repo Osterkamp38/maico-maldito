@@ -100,7 +100,7 @@ body {
 .titulo {
     color: white;
     text-shadow: black 5px 5px 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: cursive;
     font-size: 50px;
 }
 
@@ -123,4 +123,14 @@ section {
 
 #m3:hover{
     opacity: 0;
+}
+
+#zap{
+    color: #52ce5f;
+}
+
+#lista{
+    display: flex;
+    text-align: left;
+    justify-content: center;
 }

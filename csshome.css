@@ -4,7 +4,6 @@ body {
 }
 
 #main{
-  
     min-height: 100vh;
     height: 1000px;
 }
@@ -73,11 +72,13 @@ body {
 .conteudo{
     text-align: center;
     margin: auto;
+    margin-top: 0;
 }
 
 .foto img {
     width: 500px;
-    margin: auto;
+    box-shadow: 2px 2px 5px;
+    border: 2px solid black;
 }
 
 .texto {
@@ -89,7 +90,7 @@ body {
 .titulo {
     color: white;
     text-shadow: black 5px 5px 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: cursive;
     font-size: 50px;
 }
 
