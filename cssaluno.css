@@ -70,8 +70,9 @@ a{
 
 .lateral ul li a{
     text-decoration: none;
+    text-shadow: 2px 2px 2px black;
     color: white;
-    padding: 7px;
+    padding: 4px;
 }
 
 .lateral ul li a:hover{
