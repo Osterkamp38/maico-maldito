@@ -14,12 +14,14 @@ a{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    height: 1000px;
+    height: 100px;
+    min-width: min-content;
 }
 
 #home {
     text-align: center;
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 #home ul {
@@ -37,6 +39,7 @@ a{
     text-decoration: none;
     color: white;
     padding: 5px;
+    margin: 5px;
 }
 
 #home li a:hover {
@@ -70,8 +73,9 @@ a{
 
 .lateral ul li a{
     text-decoration: none;
+    text-shadow: 2px 2px 2px black;
     color: white;
-    padding: 7px;
+    padding: 4px;
 }
 
 .lateral ul li a:hover{
@@ -93,7 +97,8 @@ a{
 .video{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px black;
 }
 
 .video video{
@@ -103,7 +108,15 @@ a{
 .texto {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.texto a{
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    padding: 5px;
 }
 
 .titulo {
@@ -124,4 +137,8 @@ section {
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
+}
+
+#m{
+    width: 750px;
 }
